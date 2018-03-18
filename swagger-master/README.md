@@ -1,9 +1,9 @@
 # swagger 注解使用
-##@ApiIgnore
+*@ApiIgnore
 忽略暴露的 api
-##@ApiOperation
+*@ApiOperation
 @ApiOperation(value = "查找", notes = "根据用户 ID 查找用户") 
-##@Api：
+*@Api：
 @Api：用在类上，说明该类的作用
 ##@ApiImplicitParams：
 @ApiImplicitParams：用在方法上包含一组参数说明
